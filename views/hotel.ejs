@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title><%=title%></title>
+    </head>
+    <body>
+        <div><h1><%=data.name%></h1></div>
+        <div>
+            <div>Views:<%=data.views%></div>
+            <div>Draft Bookings:<%=data.draft_bookings%></div>
+            <div>Complete Bookings:<%=data.bookings%></div>
+        </div>
+        <main>
+            <div>Book a room</div> 
+            <a href="/hotels/<%=data._id%>">Link to book a room </a>
+        </main>
+    </body>
+</html>

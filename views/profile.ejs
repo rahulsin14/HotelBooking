@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Profile</title>
+    </head>
+    <body>
+        <div>Your Bookings</div>
+        <%for(booking of bookings){%>
+            <div>Hotel Name:<%=booking.hotel%></div>
+            <div>--------------------------</div>
+            <div>Number of rooms:<%=booking.number_of_rooms%></div>
+            <div>--------------------------</div>
+            <div>Contact Number:<%=booking.contact_number%></div>
+            <div>--------------------------</div>
+            <div>--------------------------</div>
+            <div>--------------------------</div>
+            <div>--------------------------</div>
+        <%}%>
+        <div>Recommendations</div>
+        <%for(r of rec){%>
+            <div>r</div>
+        <%}%>
+    </body>
+</html>

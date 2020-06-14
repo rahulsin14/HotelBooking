@@ -1,0 +1,10 @@
+<h1>Book Your Room</h1>
+
+<form action="/bookings/complete/<%=hotel._id%>" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <input type="number_of_rooms" name="number_of_rooms" placeholder="Number of rooms" required>
+    <input type="contact_number" name="contact_number" placeholder="Contact Number" required>
+    <input type="submit" value="Book Room">
+
+</form>

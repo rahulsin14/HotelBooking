@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <title><%=title%></title>
+    </head>
+    <body>
+    <% for(hotel of list){%>
+        <a href="/hotel/<%=hotel._id%>"><%=hotel.name %></a>
+    <% } %>
+        
+    </body>
+</html>
